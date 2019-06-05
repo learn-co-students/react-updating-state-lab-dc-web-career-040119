@@ -14,14 +14,14 @@ class YouTubeDebugger extends Component {
       }
   }}
 
-handleChangeBirate = () => {
-  this.setState({
-    settings: {
-      ...this.state.settings, birate: 12
-    }
-    }
-  )
-}
+  handleChangeBitrate = () => {
+    this.setState({
+      settings: {
+        ...this.state.settings,
+        bitrate: 12
+      }
+    });
+  };
 
 handleChangeResolution = () => {
   this.setState({
